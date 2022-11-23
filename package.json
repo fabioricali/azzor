@@ -3,7 +3,6 @@
   "version": "1.0.2",
   "description": "Download a zip file from an url and extract it in a directory",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "release:major": "npm version major",
     "release:minor": "npm version minor",

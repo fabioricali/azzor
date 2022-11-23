@@ -1,7 +1,7 @@
-import axios from 'axios';
-import AdmZip from 'adm-zip';
+const axios = require('axios');
+const AdmZip = require('adm-zip');
 
-export const download = async function (remotePath, destinationPath) {
+module.exports = async function download (remotePath, destinationPath) {
     const body = await axios.get(remotePath, {
         responseType: 'arraybuffer',
     });

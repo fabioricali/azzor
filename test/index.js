@@ -1,4 +1,4 @@
-import {download} from '../index.js'
+const download = require('../index.js')
 
 describe('download and extract', function () {
     it ('#1', async function () {

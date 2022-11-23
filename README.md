@@ -8,9 +8,11 @@ $ npm install azzor
 
 ## Example
 ```js
-import download from 'azzor';
+const download = require('azzor');
 
-await download('https://www.a-remote/file.zip', './')
+download('https://www.a-remote/file.zip', './')
+    .then(() => console.log('downloaded'))
+    .catch(e => console.error(e))
 ```
 
 ## License
