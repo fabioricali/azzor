@@ -1,6 +1,6 @@
 {
   "name": "azzor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Download a zip file from an url and extract it in a directory",
   "main": "index.js",
   "scripts": {
