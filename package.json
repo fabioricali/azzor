@@ -1,0 +1,37 @@
+{
+  "name": "azzor",
+  "version": "1.0.1",
+  "description": "Download a zip file from an url and extract it in a directory",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "release:major": "npm version major",
+    "release:minor": "npm version minor",
+    "release:patch": "npm version patch",
+    "postversion": "npm publish && git push --follow-tags",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "download",
+    "zip",
+    "url",
+    "directory"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioricali/azzor.git"
+  },
+  "homepage": "https://github.com/fabioricali/azzor#readme",
+  "bugs": {
+    "url": "https://github.com/fabioricali/azzor/issues"
+  },
+  "author": "Fabio Ricali",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^1.2.0"
+  }
+}
